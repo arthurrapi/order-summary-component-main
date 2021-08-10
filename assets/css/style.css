@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+@media screen and (max-width: 1091px) {
+  .container-fluid {
+    width: 35%;
+    min-height: 57%;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .container-fluid {
+    width: 40%;
+    min-height: 54%;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .container-fluid {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .container-fluid {
+    width: 80%;
+  }
+}
+
+.bg{
+    background: url(../images/pattern-background-desktop.svg);
+    height: 100vh;
+    position: relative;
+    background-color: #e0e8ff;
+	background-repeat: no-repeat;
+}
+
+.card{
+	border-radius: 20px;
+	width: 350px;
+	display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body-top {
+    text-align: center;
+}
+
+.card-body-top h3{
+	font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-right: 50px; 
+    margin-left: 50px; 
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+.card-body-top p{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+
+}
+
+.card-body-top a{
+	color: #223051;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mid{
+	height: 100px;
+    border-radius: 10px;
+    background-color: #f8f9fe;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.mid h6{
+	color: #223051;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.mid span{
+	line-height: 1;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mid a{
+	margin-left: 50px;
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+    font-weight: bold;
+    pointer-events: auto;
+}
+
+.mid a:hover{
+	color: hsl(245, 75%, 62%);
+	cursor:pointer;
+}
+
+.btm{
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	display: flex;
+    flex-direction: column;
+}
+
+.btm button{
+	width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: hsl(245, 75%, 52%);
+    border: 0px;
+    color: #fff;
+    pointer-events: auto;
+}
+.btm button:hover{
+	background-color: hsl(245, 75%, 62%);
+	cursor:pointer;
+}
+
+.btm a{
+	align-self: center;
+	color: hsl(224, 23%, 55%);
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	pointer-events: auto;
+}
+
+.btm a:hover{
+	color: hsl(223, 47%, 23%);
+ 	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
